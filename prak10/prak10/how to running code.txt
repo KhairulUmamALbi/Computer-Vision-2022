@@ -1,0 +1,5 @@
+#Untuk mengekstrak geometri epipolar menggunakan fitur SIFT:
+	python find_fund_matrix.py --img-left left1.png --img-right right1.png --feature-type sift
+
+#Untuk membangun 3D map:
+	python stereo_match.py --image-left left1.png --image-right right1.png --output-file output.ply
